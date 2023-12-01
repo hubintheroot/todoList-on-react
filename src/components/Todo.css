@@ -1,0 +1,40 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vmin;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.todo-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5vmin 0;
+    margin: 0 4vmin;
+}
+
+.input-text {
+    width: calc(100% - 10vmax);
+    font-size: calc(16px + 2vmin);
+    font-style: italic;
+    padding: 16px 32px;
+    box-sizing: border-box;
+}
+
+.add-btn {
+    margin-left: calc(2px + 1vmin);
+    width: 10vmax;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 2vmax;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .todo-container {
+        width: 80vmax;
+    }
+}
