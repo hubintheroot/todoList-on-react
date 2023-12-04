@@ -19,9 +19,12 @@ class Todo extends Component {
                 }
             ],
             pushTodo: (todoText) => {
-                this.state.data.unshift({
+                const newTodoData = [{
                     text: todoText,
                     checked: false
+                }];
+                this.setState({
+                    data: newTodoData.concat(this.state.data)
                 });
             },
             deleteTodo: (idx) => {
