@@ -19,8 +19,5 @@
 * CSS 스타일링
 * Todo CRUD 구현
 
-📍 Link
-
-* https://todolist-on-react.netlify.app/
 <br/>
 <br/>
